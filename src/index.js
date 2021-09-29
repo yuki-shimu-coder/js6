@@ -113,12 +113,22 @@
 // const message2 = `私の名前は${name}です。年齢は${age}です`;
 // console.log(message2);
 
-const myProfile = ["yuki", 28];
-const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です`;
-console.log(message3);
+// const myProfile = ["yuki", 28];
+// const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です`;
+// console.log(message3);
 
-const [name, age] = myProfile;
-const message4 = `名前は${name}です。年齢は${age}です`;
-console.log("message4:" + message4);
+// // 配列の分割代入は順番に注意する
+// const [name, age] = myProfile;
+// const message4 = `名前は${name}です。年齢は${age}です`;
+// console.log("message4:" + message4);
 
-age = 23;
+// オブジェクトの分割代入の練習
+// objオブジェクトの値をname,adressで取り出してみよう
+const obj = {
+  name: "yuki",
+  adress: "hokkaido"
+};
+// 取り出すときは、定義したオブジェクトのプロパティと一致させる
+const { name, adress } = obj;
+const msg = `名前は${name},で住所は${adress}です`;
+console.log(msg);
