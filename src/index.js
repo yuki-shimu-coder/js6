@@ -4,6 +4,7 @@
 // var val1 = "var変数";
 // console.log(val1);
 // varは上書きも再宣言も可能。
+// テスト
 
 // // var変数は上書き可能
 // val1 = "var変数を上書き";
