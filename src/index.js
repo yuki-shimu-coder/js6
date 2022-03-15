@@ -72,7 +72,9 @@
 // };
 // console.log(func1("func１です"));
 
-// アロー関数
+/*
+ *アロー関数
+ */
 // const func2 = (str) => {
 //   return str;
 // };
