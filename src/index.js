@@ -100,25 +100,25 @@
 /*
 分割代入
 */
-// const myProfile = {
-//   name: "yuki",
-//   age: 28
-// };
+const myProfile = {
+  name: "yuki",
+  age: 28
+};
 
 // const message1 = `私の名前は${myProfile.name}です。年齢は${myProfile.age}歳です。`;
 // console.log(message1);
 
-// // 上記コードは冗長なコード
-// // 分割代入を用いることでよりスリムにコードを記述することができる
-// // const{取り出したいプロパティ} = 取り出し先のオブジェクトと記述する
-// const { name, age } = myProfile;
-// const message2 = `私の名前は${name}です。年齢は${age}です`;
-// console.log(message2);
+// 上記コードは冗長なコード
+// 分割代入を用いることでよりスリムにコードを記述することができる
+// const{取り出したいプロパティ} = 取り出し先のオブジェクトと記述する
+const { name, age } = myProfile;
+const message2 = `私の名前は${name}です。年齢は${age}です`;
+console.log(message2);
 
-const myProfile = ["yuki", 28];
-const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です`;
-console.log(message3);
+// const myProfile = ["yuki", 28];
+// const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です`;
+// console.log(message3);
 
-const [name, age] = myProfile;
-const message4 = `名前は${name}です。年齢は${age}です`;
-console.log("message4:" + message4);
+// const [name, age] = myProfile;
+// const message4 = `名前は${name}です。年齢は${age}です`;
+// console.log("message4:" + message4);
